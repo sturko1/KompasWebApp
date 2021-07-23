@@ -1,0 +1,63 @@
+﻿@model KompasBySajra.Models.Pas
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Pas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.starosnaDob)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.starosnaDob)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.rasa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rasa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tezina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tezina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.zdravstveniProblemi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.zdravstveniProblemi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.kastriranSterilisan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.kastriranSterilisan)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.slika)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.slika)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

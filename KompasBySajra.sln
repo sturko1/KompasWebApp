@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasBySajra", "KompasBySajra\KompasBySajra.csproj", "{A5375546-A17C-4A86-80FE-9A429F01EC1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5375546-A17C-4A86-80FE-9A429F01EC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5375546-A17C-4A86-80FE-9A429F01EC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5375546-A17C-4A86-80FE-9A429F01EC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5375546-A17C-4A86-80FE-9A429F01EC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DBCB87D-BCC1-4BEE-9920-04339BEEEAA3}
+	EndGlobalSection
+EndGlobal

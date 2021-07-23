@@ -1,0 +1,60 @@
+﻿@model KompasBySajra.Models.Pas
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Pas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.starosnaDob)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.starosnaDob)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.rasa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rasa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tezina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tezina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.zdravstveniProblemi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.zdravstveniProblemi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.kastriranSterilisan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.kastriranSterilisan)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.slika)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.slika)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
