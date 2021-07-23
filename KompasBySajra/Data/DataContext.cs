@@ -15,5 +15,9 @@ namespace KompasBySajra.Data
         }
 
         public DbSet<KompasBySajra.Models.Pas> Pas { get; set; }
+
+        public DbSet<KompasBySajra.Models.Korisnik> Korisnik { get; set; }
+
+        public DbSet<KompasBySajra.Models.ZahtjevZaUdomljavanje> ZahtjevZaUdomljavanje { get; set; }
     }
 }
